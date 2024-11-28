@@ -1,0 +1,141 @@
+/* General Reset */
+
+ 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header .logo img {
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 130px;
+  }
+  
+  header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #ff6868;
+  }
+  
+  header p {
+    margin: 5px 0;
+    color: #aaa;
+  }
+  
+  nav {
+    margin: 10px 0;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+  }
+
+  nav a:hover{
+    color: red;
+  }
+  
+  .categories {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .categories button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #333;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    color: #ff6868;
+    margin: 10px 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .card span {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .pagination {
+    text-align: center;
+    margin: 20px 640px;
+  }
+  
+  .pagination button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    color: #777;
+  }
+  
+  footer button {
+    padding: 10px 15px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .pagination, button, p{
+    display: inline-block;
+  }
+  
